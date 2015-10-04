@@ -1,0 +1,208 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height: 100%;
+    font-family:"Arial", sans-serif;
+    font-size:18px;
+    line-height:1.5;
+    color:#DEE6F0; 
+    background: url(background.png) no-repeat center center fixed;*/
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+ }
+
+/*             HEADER!!*/
+
+ .header{
+    width: 88%;
+    border-top: 1px solid #243142;
+    border-bottom: 1px solid #243142;
+    margin-left: 6%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family:TeX Gyre Heros;
+    letter-spacing:4px;
+    padding-top: 15px;
+ }
+ img.logo{
+    width: 53.5%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 23.25%;
+ }
+
+ /*       MENU*/
+
+ .dropdown-top {
+    display: inline-block;
+    padding: auto auto; 
+    text-decoration: none; 
+}
+.dropdown-top:hover { 
+    color: #243142;
+}
+ .dropdown{
+    padding-top: 0;
+    width: 88%;
+    height: 66px;
+    border-bottom: 1px solid #243142;
+    padding-left:20%;
+    margin-left: 6.59%;
+}
+.dropdown li{
+    list-style:none;
+    display:inline-block;
+    outline: none;
+    text-align: justify;
+    width: 15.7%;
+    height: 24px;
+    margin-left: 7px;
+}
+.dropdown a{
+    color: #DEE6F0;
+    display:block;
+    text-decoration:none;
+    padding:10px ;
+    font-size: 16px;
+    height: 24px;
+    width: 90%;
+    font-weight: bolder;
+    background:black;
+    text-align: center;
+}
+
+ul.dropdown li { position: relative; }
+ ul.dropdown,
+ ul.dropdown-inside {
+    list-style-type: none;
+    padding: 0;
+ }
+ ul.dropdown-inside {
+    position: absolute;
+    left: -9999px;
+ }
+
+ ul.dropdown li.dropdown-top:hover .dropdown-inside {
+    display: block;
+    left: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+ }
+ul.dropdown li.dropdown-top:hover .dropdown-inside li {
+    display: block;
+    left: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+ }
+ ul.dropdown li.dropdown-top:hover .dropdown-inside a {
+    margin-top: 1px;
+}
+#shift{
+    margin-left: 8.8%;
+}
+/*         CONTENT!!*/
+.cont{
+    display: block;
+    margin-top: 21px;*/
+}
+.content{
+    width: 53.21%;
+    height: auto;
+    margin-left: 13%;
+    display: inline-block;
+    float: left;
+}
+.photo{
+     width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 14px;
+
+}
+.instagram{
+    float: left;
+    width:261px;
+    height: 424px;
+    display: inline-block;
+    background-color: black;
+    margin-left: 42px;
+}
+.h21{
+    color:#DEE6F0; 
+    display: inline-block;
+    width: 245px;
+    height: 27px;
+    float: left;
+    margin-left: 42px;
+}
+p {
+    margin-top: 15px;
+    color:#DEE6F0;
+    letter-spacing:1.15px;
+    font-size: 12pt;
+    line-height:1.15;
+}
+.column{
+        display: inline-block;
+        margin-right: 30px;
+        padding-top: 0;
+        line-height:2;
+        color:#DEE6F0; 
+}
+/*         FOOTER!!*/
+footer {
+    width: 93.4%;
+    margin-left: 3.3%;
+    border-top: 1px solid #243142;
+    position: relative;
+    height: 35px;
+    min-height:35px;
+    padding:0 0 0;
+    text-align: center;
+    margin-top: 297px;
+    color:#DEE6F0; 
+    font-size: 11pt;
+    padding-top: 15px;
+}
+html, body, #wrap {
+    height: 100%;
+    margin: 0px;
+}
+body > #wrap {
+    height: auto;
+    min-height: 100%;
+}
+* { margin:0; padding:0; } 
+html, body, #wrap { height: 100%; }
+body > #wrap {
+    height: auto; 
+    min-height: 100%;
+}
+#main { padding-bottom: 35px; }  /* must be same height as the footer */
+#footer { 
+        position: relative;
+    margin-top: -35px; /* negative value of footer height */
+    height: 35px;
+    clear:both;} 
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
